@@ -1,0 +1,54 @@
+{
+  "login": [
+    {
+      "name": "styles@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "styles@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "demo@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "ajay@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "name": "ajay@gmail.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "sreeram@gmail.com",
+      "password": "sreeram",
+      "id": 6
+    },
+    {
+      "name": "rohit@gmail.com",
+      "password": "rohit",
+      "id": 7
+    },
+    {
+      "name": "abc@gmail.com",
+      "password": "gmail",
+      "id": 8
+    },
+    {
+      "name": "gmail@gmail.com",
+      "password": "gmail",
+      "id": 9
+    },
+    {
+      "name": "styles@gmail.com",
+      "password": "12345",
+      "id": 10
+    }
+  ]
+}

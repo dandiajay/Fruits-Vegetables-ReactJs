@@ -1,0 +1,49 @@
+.header{
+    background-color:bisque;  
+}
+
+
+.menu-color{
+   
+    color:green;
+    font-weight: 500px;
+    font-size: 30px;
+}
+.delivery-process{
+    color: rgba(1, 54, 1, 0.913);
+}
+.healthy{
+    background-color: bisque;
+}
+
+.footer{
+    background-color: bisque;
+    background-image: url("../assets/Images/footer.png");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.img-fluid,img{
+    width: 400px;
+}
+
+
+.ContactUs{
+    box-shadow: 1px 1px 5px 1px rgb(209, 204, 204); 
+}
+.home-heading{
+    text-shadow: 0 0 3px #FF0000;
+    font-style: italic;
+}
+
+.nav-items{
+    color:red;
+}
+.nav-items:hover{
+    border-radius: 10px;
+    color: #FF0000;
+    font-weight: bold; 
+    background-color:rgb(250, 209, 168);    
+}
