@@ -28,7 +28,7 @@ const Header = ({ handleSearch }) => {
                 </li>
 
                 <li class="nav-item">
-                  <Link Link to="/contact" class="nav-link nav-items" >Contact us</Link>
+                  <Link Link to="/contact" class="nav-link nav-items" >Contact-us</Link>
                 </li>
               </ul>
              <form className="d-flex">

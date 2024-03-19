@@ -19,11 +19,11 @@ const Home = () => {
   <div className=" container-fluid header">
         <div class="container col-xxl-8   py-5 header">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5 ">
-      <div class="col-10 col-sm-8  col-lg-6 align-items-center">
+      <div class="col-10 col-sm-8  col-lg-6 align-items-center header-image">
         <img src={Image} class="d-block mx-lg-auto img-fluid mt-5" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
       </div>
       <div class="col-lg-6">
-        <h1 class="display-3  fw-bold text-body-emphasis lh-1 mb-3 home-heading ">Vegetable for Health and Nutrition</h1>
+        <h1 class="  fw-bold text-body-emphasis lh-1 mb-3 home-heading ">Vegetable for Health and Nutrition</h1>
         <p class="lead">Fruits and vegetables are nature's bounty, rich in vitamins, minerals, and fiber. They come in vibrant hues and diverse flavors, offering a spectrum of nutrition. Eating a colorful array ensures a balanced diet, promoting overall health and well-being. Incorporate them into meals for a delicious and nutritious lifestyle.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button type="button" class="btn btn-danger btn-lg px-4 me-md-2" onClick={()=>navigate("/fruits/")}>Shop Your Fruits</button>

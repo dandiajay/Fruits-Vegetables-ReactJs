@@ -4,6 +4,7 @@ import CheckOutProduct from "./CheckOutProduct";
 import SubTotal from "./SubTotal";
 import Header from "./Header";
 import fruit from '../assets/Images/footer.png'
+import cart_empty from '../assets/Images/cart_empty.png'
 
 const CheckOut = () => {
   const [{ basket }] = useStateValue();
@@ -18,7 +19,8 @@ const CheckOut = () => {
         <img src={fruit} className='w-100' style={{height:"200px"}}/>
             <h2>Your Shooping Cart</h2>
           {basket.length === 0 ? (
-            <p>Your cart is empty.</p>
+            <>
+            <span> <img src={cart_empty} className='w-100' style={{ height: "200px" }} /> </span></>
           ) : (
             basket.map(item => (
               <CheckOutProduct

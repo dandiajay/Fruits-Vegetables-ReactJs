@@ -2,7 +2,7 @@ import React from "react";
 const Footer = () => {
     return (
         <div>
-    
+
             <div className="container-fluid footer">
                 <div className="d-flex flex-column  align-items-center">
                     <i className="bi bi-envelope text-white display-5"></i>
@@ -50,13 +50,13 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-                            
+
                         </div>
                     </footer>
                 </div>
                 <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top ">
-      <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-    </div>
+                    <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+                </div>
 
             </div>
         </div>
