@@ -25,7 +25,7 @@ const SignUp=()=>{
             name:enteredUserName,
             password:enteredPassword
         }).then((response)=>{
-            alert("successfully login "+enteredUserName);
+            alert("successfully signIn "+enteredUserName);
             navigate("/");//if login successfully it will navigate to login form
         }).catch(error=>{
             alert("error===>"+error)

@@ -11,7 +11,7 @@ const Header = ({ handleSearch }) => {
       <nav>
         <nav class="navbar container-fluid navbar-expand-lg  header fixed-top" >
           <div class="container fs-3  border-bottom border-dark" >
-            <Link to="/home" class="navbar-brand"> <img src={Logo} alt="" className=' img-fluid w-25' style={{ width: "120px" }} /></Link>
+            <Link to="/home" class="navbar-brand"> <img src={Logo} alt="" className=' img-fluid w-25' /></Link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
